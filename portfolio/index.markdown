@@ -26,7 +26,7 @@ scikit-learn
 decision tree
 {: .badge .badge-pill .badge-info }
 
-An analysis of complaints received by NYC Department of Housing Preservation and Development (HPD) to help manage the high-volume of complaints by suggesting the most pressing complaint as well as the area the HPD should focus on.
+An analysis of complaints received by NYC Department of Housing Preservation and Development (HPD) to help manage the high-volume of complaints by suggesting the most pressing complaint as well as the area the HPD should focus on. A final project for Purwadhika Data Science and Machine Learning.
 
 ![](/portfolio/static/prediction.png)
 
@@ -85,7 +85,7 @@ Predict whether a customer browsing session will end with goods purchase or not 
 ![](/portfolio/static/purchasing.png)
 
 <span class="fs-3">
-[Read more](/portfolio/puchasing intention){: .btn }
+[Read more](/portfolio/purchasing intention){: .btn }
 </span>
 
 
