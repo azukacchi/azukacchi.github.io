@@ -39,6 +39,56 @@ An analysis of complaints received by NYC Department of Housing Preservation and
 - Flask web application is available on [Heroku](http://nyc311-azka.herokuapp.com/)
 - Notebooks and source code are available on [my github](https://github.com/azukacchi/nyc311_housing_buildings_analysis).
 
+
+## Campus Recruitment
+
+EDA
+{: .badge .badge-pill .badge-primary }
+data viz
+{: .badge .badge-pill .badge-secondary }
+
+Analysis of academic and employability factors influencing candidate's job placement. A Project for IBM Exploratory Data Analysis for Machine Learning course.
+
+![](/portfolio/static/campusrec.png)
+
+<span class="fs-3">
+[Read more](/portfolio/campus recruitment){: .btn }
+</span>
+
+
+## Holiday Spending
+
+regression
+{: .badge .badge-pill .badge-primary }
+retail
+{: .badge .badge-pill .badge-secondary }
+
+Predict customer spending during holiday season to decide which customer will be targeted for the upcoming holiday season promotion based on customer visit and customer spending for a fashion retailer throughout the past year. A Project for IBM Supervised Learning: Regression course.
+
+![](/portfolio/static/holiday.png)
+
+<span class="fs-3">
+[Read more](/portfolio/holiday spending){: .btn }
+</span>
+
+## Browsing or Purchasing?
+
+clasification
+{: .badge .badge-pill .badge-primary }
+decision tree
+{: .badge .badge-pill .badge-info }
+retail
+{: .badge .badge-pill .badge-secondary }
+
+Predict whether a customer browsing session will end with goods purchase or not based online shop customer's browsing behavior in one year period. A Project for IBM Supervised Learning: Classification course.
+
+![](/portfolio/static/purchasing.png)
+
+<span class="fs-3">
+[Read more](/portfolio/puchasing intention){: .btn }
+</span>
+
+
 ---
 
 # Others

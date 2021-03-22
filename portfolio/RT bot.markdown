@@ -5,7 +5,7 @@
 layout: default
 title: RT bot
 parent: Portfolio
-nav_order: 3
+nav_order: 6
 ---
 
 # Twitter RT Bot

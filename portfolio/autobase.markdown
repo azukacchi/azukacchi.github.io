@@ -5,7 +5,7 @@
 layout: default
 title: autobase
 parent: Portfolio
-nav_order: 2
+nav_order: 5
 ---
 
 # Twitter Autobase Bot
