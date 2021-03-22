@@ -4,7 +4,7 @@
 
 layout: home
 title: Home
-permalink: /lala/
+permalink: /lllklkkk/
 nav_exclude: true
 ---
 
