@@ -25,6 +25,8 @@ scikit-learn
 {: .badge .badge-pill .badge-primary} 
 decision tree
 {: .badge .badge-pill .badge-info }
+plotly
+{: .badge .badge-pill .badge-secondary }
 
 An analysis of complaints received by NYC Department of Housing Preservation and Development (HPD) to help manage the high-volume of complaints by suggesting the most pressing complaint as well as the area the HPD should focus on. A final project for Purwadhika Data Science and Machine Learning.
 
@@ -126,6 +128,8 @@ tweepy
 {: .badge .badge-pill .badge-primary }
 API
 {: .badge .badge-pill .badge-info }
+sqlite
+{: .badge .badge-pill .badge-secondary }
 
 This is a simple twitter bot that collects tweets containing a certain keyword, stores them in a database file, and retweets them at a certain time window, built in Python using Tweepy.
 
