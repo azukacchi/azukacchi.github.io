@@ -25,6 +25,8 @@ scikit-learn
 {: .badge .badge-pill .badge-primary} 
 decision tree
 {: .badge .badge-pill .badge-info }
+flask
+{: .badge .badge-pill .badge-secondary }
 plotly
 {: .badge .badge-pill .badge-secondary }
 
@@ -58,19 +60,19 @@ Analysis of academic and employability factors influencing candidate's job place
 </span>
 
 
-## Holiday Spending
+## House Price Prediction
 
 regression
 {: .badge .badge-pill .badge-primary }
-retail
+property
 {: .badge .badge-pill .badge-secondary }
 
-Predict customer spending during holiday season to decide which customer will be targeted for the upcoming holiday season promotion based on customer visit and customer spending for a fashion retailer throughout the past year. A Project for IBM Supervised Learning: Regression course.
+Predict house price based on physical attributes related to property sales with linear regression. Different methods of regularization such as Ridge, Lasso, and Elastic Net were evaluated. This is a project for IBM Supervised Learning: Regression course.
 
-![](/portfolio/static/holiday.png)
+![](/portfolio/static/housing.png)
 
 <span class="fs-3">
-[Read more](/portfolio/holiday spending){: .btn }
+[Read more](/portfolio/house price){: .btn }
 </span>
 
 ## Browsing or Purchasing?
