@@ -92,6 +92,23 @@ Predict whether a customer browsing session will end with goods purchase or not 
 [Read more](/portfolio/purchasing intention){: .btn }
 </span>
 
+## The Most Impactful Attack On Titan Episodes in Each Season
+
+EDA
+{: .badge .badge-pill .badge-primary }
+google trends
+{: .badge .badge-pill .badge-secondary }
+pytrends
+{: .badge .badge-pill .badge-info }
+
+Which of the Attack On Titan season has the most impact? Which episodes garnered the most attention in each season? We'll answer both questions using the data from Google Trends.
+
+![](/portfolio/static/merch.jpg)
+
+<span class="fs-3">
+[Read more](/portfolio/AttackOnTitan - google trends){: .btn }
+</span>
+
 
 ---
 
