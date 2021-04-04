@@ -92,6 +92,26 @@ Predict whether a customer browsing session will end with goods purchase or not 
 [Read more](/portfolio/purchasing intention){: .btn }
 </span>
 
+
+## Online Retail Customer Segmentation
+
+clustering
+{: .badge .badge-pill .badge-primary }
+kmeans
+{: .badge .badge-pill .badge-info }
+agglomerative clustering
+{: .badge .badge-pill .badge-info }
+retail
+{: .badge .badge-pill .badge-secondary }
+
+How should a retailer make an offering to their customer? What does the transaction data tell about the customers' purchasing behavior? We will group online retailer customers using clustering techniques, with the help of Recency, Frequency, and Monetary (RFM) analysis. A Project for IBM Unsupervised Learning course.
+
+![](/portfolio/static/kmeans.png)
+
+<span class="fs-3">
+[Read more](/portfolio/customer segmentation){: .btn }
+</span>
+
 ## The Most Impactful Attack On Titan Episodes in Each Season
 
 EDA

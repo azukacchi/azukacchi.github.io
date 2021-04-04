@@ -32,7 +32,10 @@ github_username:  azukacchi
 remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
+  # - jekyll-spaceship
 
+
+markdown: kramdown
 
 color_scheme: light
 
