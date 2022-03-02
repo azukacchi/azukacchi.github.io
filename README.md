@@ -1,4 +1,4 @@
-# Setting Up Github Pages site with Jekyll Tutorial
+# Setting Up Github Pages site with Jekyll Tutorial for Absolute Beginner
 
 Jekyll is a static site generator. With Jekyll, you can write your pages in markdown from which it will build your html pages based on the layout settings. For example, if the markdown file you're writing is `project1.markdown`, Jekyll will build the `project1.html` file for you. There's no need to tweak the html, css, or whatever it is for the layout unless you want to do some customization. The Jekyll theme you're using alone already allowed some customization (think of working with Bootstrap) and you can easily change them using the provided field. 
 
@@ -27,7 +27,14 @@ Other reading
 
 ### Install Ruby and Jekyll
 
-Follow the instruction from this page [for Windows](https://jekyllrb.com/docs/installation/windows/).
+#### Version 1: Installation via RubyInstaller
+
+Follow the instruction from this page [for Windows](https://jekyllrb.com/docs/installation/windows/#installation-via-rubyinstaller).
+
+#### Version 2: Installation via Bash on Windows 10 (Windows Subsystem Linux)
+
+Follow the instruction from this page [for Windows](https://jekyllrb.com/docs/installation/windows/#installation-via-bash-on-windows-10).
+I found that this method is less prone to compatibility issue coming from Windows system.
 
 ### Prepare Your Project Folder
 
@@ -38,6 +45,7 @@ We will prepare and test out pages *locally* first. These first steps are modifi
 3. Choose the directory where you are going to publish your site.
     - If you choose to publish your site from the root of the repository, `/`, your github pages will appear directly on the root, e.g. `username.github.io`. If you choose this, you don't need to make any new directory
     - If you choose to publish your site from a specific folder of the repository, e.g. `/docs`, your github pages will appear on that page, e.g. `username.github.io/docs`. If you choose this, make a new directory, then navigate to that folder.
+    - IMPORTANT NOTE: If you install Ruby and Jekyll using WSL (Windows Subsytem Linux), always run all the following steps in bash, instead of command prompt. How to open bash: open `ubuntu` app, then enter `sudo bash` and input your Linux password. Keep in mind that your Windows drive is saved in the `/mnt` folder (further reading: [StackExchange](https://askubuntu.com/questions/831361/can-i-change-directory-to-a-windows-drive-in-ubuntu-bash-on-wsl)). If you want to access your Ubuntu directory, enter `\\wsl$` in File Explorer.
         ```
         $ mkdir docs
         # Creates a new folder called docs
@@ -78,7 +86,7 @@ After you've completed setting up your pages and your site is running okay local
 ## Push Existing Project to Github 
 
 1. Create a new repository on Github. Type a name for your repository. If you're creating a user site, your repository **must** be named `<yourusername>.github.io`. Do not add any files because we're going to push the files from local.
-2. Unless you're already working in the root of your project folder, navigate to the root. Initialize git repository in the current directory (must be the root folder).
+2. Unless you're already working in the root of your project folder, navigate to the root. Initialize git repository in the current directory (must be the root folder). DO THIS FROM GIT BASH.
     ```
     git init
     ```
@@ -97,11 +105,11 @@ After you've completed setting up your pages and your site is running okay local
     ```
     For another theme, check the theme documentation.
 5. From the command line, run `bundle update`
-6. Add your GitHub repository as a remote
+6. Add your GitHub repository as a remote.
     ```
     git remote add origin https://github.com/<username>/<username>.github.io.git
     ```
-7. Then add, commit, and push your files to the remote
+7. Then add, commit, and push your files to the remote. Mind the branch name (master/main).
     ```
     git add .
     git commit -m "initial commit"
@@ -120,3 +128,4 @@ C:\Ruby27-x64\lib\ruby\gems\2.7.0\gems\just-the-docs-0.3.3\_sass\custom\custom.s
 Check the path to the installed theme directory using this `bundle info --path "THEME-NAME"`
 
 However, when you're running your page on Github Pages, you **must** make the directory and the file yourself in the folder where you will publish your site. The exact directory is different for each theme, e.g. for "Just-the-Docs", the directory for the new file is `_sass/custom/custom.scss`. You should follow your theme documentation when you add the contents of the new file. Example with Minima theme [here](https://docs.github.com/en/github/working-with-github-pages/adding-a-theme-to-your-github-pages-site-using-jekyll#customizing-your-themes-css).
+
