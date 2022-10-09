@@ -59,10 +59,8 @@ ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (t
 # their entries' file path in the `include:` list.
 #
 
-# comment when pushing updates to github
-exclude:
-    - assets 
 
+# exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
