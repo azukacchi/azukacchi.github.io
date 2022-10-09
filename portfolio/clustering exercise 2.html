@@ -1,17 +1,10 @@
----
-layout: default
-title: customer segmentation
-parent: Portfolio
-nav_order: 7
-usemathjax: true
----
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>clustering exercise 2</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
-<title>customer segmentation</title>
-<!-- <script src="./google trends_files/require.min.js.download"></script>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script> -->
 
 
 
@@ -14224,9 +14217,9 @@ a.anchor-link {
 
 
 <!-- Load mathjax -->
-<script type="text/javascript" async="" src="./google trends_files/MathJax.js.download"></script>
-<!-- MathJax configuration -->
-<script type="text/x-mathjax-config;executed=true">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML-full,Safe"> </script>
+    <!-- MathJax configuration -->
+    <script type="text/x-mathjax-config">
     init_mathjax = function() {
         if (window.MathJax) {
         // MathJax loaded
@@ -15677,11 +15670,12 @@ dtype: float64</pre>
 <h2 id="5.-Modelling">5. Modelling<a class="anchor-link" href="#5.-Modelling">&#182;</a></h2><h3 id="Search-for-optimal-number-of-clusters">Search for optimal number of clusters<a class="anchor-link" href="#Search-for-optimal-number-of-clusters">&#182;</a></h3><p>Perform KMeans clustering with different number of clusters to search for the optimal clusters number. We will choose the number of clusters by</p>
 <ol>
 <li><p>Elbow method</p>
-<p>Compare the inertia or the distortion the clusters number and choose the configuration that leads to lowest inertia or distortion. We will choose the clusters number k that after which point the distortion and inertia decreases only slowly compared to before, hence the 'elbow'.</p>
+<p>Compare the inertia or the distortion the clusters number and choose the configuration that leads to lowest inertia or distortion. We will choose the clusters number <em>n</em> that after which point the distortion and inertia decreases only slowly compared to before, hence the 'elbow'.</p>
 </li>
-<li><p>Silhouette analysis
- Silhouette score ranges from -1 to +1 and indicates the separation distance of the clusters. A score of +1 means the sample is located far away from the neighboring cluster. A score of 0 means the sample is on the decision boundary. A score of -1 means the sample is clustered wrongly.</p>
-</li>
+</ol>
+<ol>
+<li>Silhouette analysis
+ Silhouette score ranges from -1 to +1 and indicates the separation distance of the clusters. A score of +1 means the sample is located far away from the neighboring cluster. A score of 0 means the sample is on the decision boundary. A score of -1 means the sample is clustered wrongly.  </li>
 </ol>
 
 </div>

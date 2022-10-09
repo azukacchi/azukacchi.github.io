@@ -15,6 +15,38 @@ has_toc: false
 
 Portfolio of my data science projects for course assignment and personal purposes.
 
+## Health Insurance Risk Analysis
+probability
+{: .badge .badge-pill .badge-primary }
+EDA
+{: .badge .badge-pill .badge-secondary }
+
+Analisis variabel yang mempengaruhi tagihan asuransi kesehatan. Dibuat sebagai final project salah satu course Pacmann Analytics & Data Science.
+
+<img src="/portfolio/static/healthinsurance/Untitled 18.png" alt="drawing" width="300"/>
+
+<span class="fs-3">
+[Read more](/portfolio/health insurance risk){: .btn }
+</span>
+
+
+## NY Citi Bike Performance
+data viz
+{: .badge .badge-pill .badge-primary }
+data cleaning
+{: .badge .badge-pill .badge-secondary }
+EDA
+{: .badge .badge-pill .badge-info }
+
+Analisis kinerja program NY Citi Bike di tahun 2014-2016 serta eksplorasi karakteristik pengguna. Visualisasi ditampilkan dalam bentuk dashboard Tableau. Dibuat sebagai final project salah satu course Pacmann Analytics & Data Science.
+
+<img src="/portfolio/static/nycitibike/Untitled 3.png" alt="drawing" width="500"/>
+
+<span class="fs-3">
+[Read more](/portfolio/citi bike performance){: .btn }
+</span>
+
+
 ## NYC311 Housing and Building Complaint Analysis
 
 data viz
@@ -53,7 +85,7 @@ data viz
 
 Analysis of academic and employability factors influencing candidate's job placement. A Project for IBM Exploratory Data Analysis for Machine Learning course.
 
-![](/portfolio/static/campusrec.png)
+<img src="/portfolio/static/campusrec.png" alt="Campus Recruitment" width="300"/>
 
 <span class="fs-3">
 [Read more](/portfolio/campus recruitment){: .btn }
@@ -69,7 +101,7 @@ property
 
 Predict house price based on physical attributes related to property sales with linear regression. Different methods of regularization such as Ridge, Lasso, and Elastic Net were evaluated. This is a project for IBM Supervised Learning: Regression course.
 
-![](/portfolio/static/housing.png)
+<img src="/portfolio/static/housing.png" alt="House Price Prediction" width="300"/>
 
 <span class="fs-3">
 [Read more](/portfolio/house price){: .btn }
@@ -120,6 +152,8 @@ google trends
 {: .badge .badge-pill .badge-secondary }
 pytrends
 {: .badge .badge-pill .badge-info }
+fandom stuffs
+{: .badge .badge-pill .badge-primary }
 
 Which of the Attack On Titan season has the most impact? Which episodes garnered the most attention in each season? We'll answer both questions using the data from Google Trends.
 
@@ -142,6 +176,8 @@ tweepy
 {: .badge .badge-pill .badge-primary }
 API
 {: .badge .badge-pill .badge-info }
+fandom stuffs
+{: .badge .badge-pill .badge-secondary }
 
 Simple twitter autobase bot that posts incoming Direct Messages.
 
@@ -169,6 +205,8 @@ API
 {: .badge .badge-pill .badge-info }
 sqlite
 {: .badge .badge-pill .badge-secondary }
+fandom stuffs
+{: .badge .badge-pill .badge-info }
 
 This is a simple twitter bot that collects tweets containing a certain keyword, stores them in a database file, and retweets them at a certain time window, built in Python using Tweepy.
 

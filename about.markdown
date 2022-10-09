@@ -14,7 +14,7 @@ permalink: /about/
 
 ## About Me
 
-Azka is a master's graduate with experience working in the research and development field. Her works are mainly in renewable energy issues with a specialty in bioenergy and high-value chemicals production, which mainly involve formulating research questions, literature review, data analysis, and communicating the finding to the research community. She has an interest in using data to uncover patterns behind a phenomenon, which drove her into learning Python as the most used language in Data Science. She aspires to create social impacts using her research skills as a Data Scientist.
+Azka is a business intelligence analyst with experience working at a research institute and a logistics startup. Her works mainly involve formulating research questions, literature review, data analysis, and communicating the finding. She has an interest in using data to uncover patterns behind a phenomenon, which drove her into learning Python as the most used language in Data Science. She aspires to create impact in business using her data analysis and research skill.
 
 ## Certifications
 - Data Science and Machine Learning by Purwadhika Digital Technology School
