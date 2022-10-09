@@ -31,10 +31,15 @@ Other reading
 
 Follow the instruction from this page [for Windows](https://jekyllrb.com/docs/installation/windows/#installation-via-rubyinstaller).
 
-#### Version 2: Installation via Bash on Windows 10 (Windows Subsystem Linux)
+#### Version 2: Installation via Bash on Windows 10 (Windows Subsystem Linux - WSL)
 
 Follow the instruction from this page [for Windows](https://jekyllrb.com/docs/installation/windows/#installation-via-bash-on-windows-10).
 I found that this method is less prone to compatibility issue coming from Windows system.
+
+Use the following to change directory using WSL (`C:\Users\username`)
+```
+/mnt/c/Users/username
+```
 
 ### Prepare Your Project Folder
 
@@ -128,3 +133,13 @@ C:\Ruby27-x64\lib\ruby\gems\2.7.0\gems\just-the-docs-0.3.3\_sass\custom\custom.s
 Check the path to the installed theme directory using this `bundle info --path "THEME-NAME"`
 
 However, when you're running your page on Github Pages, you **must** make the directory and the file yourself in the folder where you will publish your site. The exact directory is different for each theme, e.g. for "Just-the-Docs", the directory for the new file is `_sass/custom/custom.scss`. You should follow your theme documentation when you add the contents of the new file. Example with Minima theme [here](https://docs.github.com/en/github/working-with-github-pages/adding-a-theme-to-your-github-pages-site-using-jekyll#customizing-your-themes-css).
+
+### Testing Locally
+
+- Don't use `remote_theme` in your config file
+- Exclude your custom style in the `assets` folder
+- Check the `Gemfile` and update the lines where you should comment or uncomment
+
+### Pushing Your Branch to Github Pages
+- Update any lines in the config and `Gemfile` before adding your changes to git repository
+- Make sure you're using the correct branch as the source to deploy your Github page
