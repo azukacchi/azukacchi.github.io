@@ -15,6 +15,23 @@ has_toc: false
 
 Portfolio of my data science projects for course assignment and personal purposes.
 
+## Attitudes Toward Wife Beating
+logistic regression
+{: .badge .badge-pill .badge-primary }
+statistical test
+{: .badge .badge-pill .badge-secondary }
+EDA
+{: .badge .badge-pill .badge-info }
+
+Melihat bagaimana hubungan tingkat pendidikan, tingkat ekonomi, daerah tinggal, serta pernikahan di bawah umur perempuan mempengaruhi sikap terhadap pemukulan istri dan apakah hubungan tersebut dapat digambarkan oleh sebuah model statistik. Dibuat sebagai final project salah satu course Pacmann Analytics & Data Science.
+
+<img src="/portfolio/static/wifebeating/poorest_vs_richest_household_vs_beatings.png" alt="drawing" width="500"/>
+
+<span class="fs-3">
+[Read more](/portfolio/wife beating){: .btn }
+</span>
+
+
 ## Health Insurance Risk Analysis
 probability
 {: .badge .badge-pill .badge-primary }

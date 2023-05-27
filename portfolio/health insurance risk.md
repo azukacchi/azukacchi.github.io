@@ -5,7 +5,7 @@
 layout: default
 title: health insurance risk
 parent: Portfolio
-nav_order: 1
+nav_order: 2
 ---
 
 # Penilaian Risiko dalam Asuransi Kesehatan
